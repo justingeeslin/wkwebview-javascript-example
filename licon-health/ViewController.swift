@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         if let url = URL(string: "https://healthcare.gov") {
             let config = SFSafariViewController.Configuration()
             config.entersReaderIfAvailable = false
+            config.barCollapsingEnabled = true
             
             let svc = SFSafariViewController(url: url, configuration: config)
             
