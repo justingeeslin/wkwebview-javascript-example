@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC260DB20A4760F00E4045F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC260DA20A4760F00E4045F /* AppDelegate.swift */; };
+		DAC260DD20A4760F00E4045F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC260DC20A4760F00E4045F /* ViewController.swift */; };
+		DAC260E020A4760F00E4045F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC260DE20A4760F00E4045F /* Main.storyboard */; };
+		DAC260E220A4760F00E4045F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC260E120A4760F00E4045F /* Assets.xcassets */; };
+		DAC260E520A4760F00E4045F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC260E320A4760F00E4045F /* LaunchScreen.storyboard */; };
+		DAC260F020A4760F00E4045F /* licon_healthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC260EF20A4760F00E4045F /* licon_healthTests.swift */; };
+		DAC260FB20A4760F00E4045F /* licon_healthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC260FA20A4760F00E4045F /* licon_healthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC260EC20A4760F00E4045F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC260CF20A4760F00E4045F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC260D620A4760F00E4045F;
+			remoteInfo = "licon-health";
+		};
+		DAC260F720A4760F00E4045F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC260CF20A4760F00E4045F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC260D620A4760F00E4045F;
+			remoteInfo = "licon-health";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC260D720A4760F00E4045F /* licon-health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "licon-health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC260DA20A4760F00E4045F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC260DC20A4760F00E4045F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAC260DF20A4760F00E4045F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC260E120A4760F00E4045F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC260E420A4760F00E4045F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC260E620A4760F00E4045F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC260EB20A4760F00E4045F /* licon-healthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "licon-healthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC260EF20A4760F00E4045F /* licon_healthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = licon_healthTests.swift; sourceTree = "<group>"; };
+		DAC260F120A4760F00E4045F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC260F620A4760F00E4045F /* licon-healthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "licon-healthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC260FA20A4760F00E4045F /* licon_healthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = licon_healthUITests.swift; sourceTree = "<group>"; };
+		DAC260FC20A4760F00E4045F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC260D420A4760F00E4045F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC260E820A4760F00E4045F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC260F320A4760F00E4045F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC260CE20A4760F00E4045F = {
+			isa = PBXGroup;
+			children = (
+				DAC260D920A4760F00E4045F /* licon-health */,
+				DAC260EE20A4760F00E4045F /* licon-healthTests */,
+				DAC260F920A4760F00E4045F /* licon-healthUITests */,
+				DAC260D820A4760F00E4045F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC260D820A4760F00E4045F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC260D720A4760F00E4045F /* licon-health.app */,
+				DAC260EB20A4760F00E4045F /* licon-healthTests.xctest */,
+				DAC260F620A4760F00E4045F /* licon-healthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC260D920A4760F00E4045F /* licon-health */ = {
+			isa = PBXGroup;
+			children = (
+				DAC260DA20A4760F00E4045F /* AppDelegate.swift */,
+				DAC260DC20A4760F00E4045F /* ViewController.swift */,
+				DAC260DE20A4760F00E4045F /* Main.storyboard */,
+				DAC260E120A4760F00E4045F /* Assets.xcassets */,
+				DAC260E320A4760F00E4045F /* LaunchScreen.storyboard */,
+				DAC260E620A4760F00E4045F /* Info.plist */,
+			);
+			path = "licon-health";
+			sourceTree = "<group>";
+		};
+		DAC260EE20A4760F00E4045F /* licon-healthTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC260EF20A4760F00E4045F /* licon_healthTests.swift */,
+				DAC260F120A4760F00E4045F /* Info.plist */,
+			);
+			path = "licon-healthTests";
+			sourceTree = "<group>";
+		};
+		DAC260F920A4760F00E4045F /* licon-healthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC260FA20A4760F00E4045F /* licon_healthUITests.swift */,
+				DAC260FC20A4760F00E4045F /* Info.plist */,
+			);
+			path = "licon-healthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC260D620A4760F00E4045F /* licon-health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC260FF20A4760F00E4045F /* Build configuration list for PBXNativeTarget "licon-health" */;
+			buildPhases = (
+				DAC260D320A4760F00E4045F /* Sources */,
+				DAC260D420A4760F00E4045F /* Frameworks */,
+				DAC260D520A4760F00E4045F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "licon-health";
+			productName = "licon-health";
+			productReference = DAC260D720A4760F00E4045F /* licon-health.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC260EA20A4760F00E4045F /* licon-healthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC2610220A4760F00E4045F /* Build configuration list for PBXNativeTarget "licon-healthTests" */;
+			buildPhases = (
+				DAC260E720A4760F00E4045F /* Sources */,
+				DAC260E820A4760F00E4045F /* Frameworks */,
+				DAC260E920A4760F00E4045F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC260ED20A4760F00E4045F /* PBXTargetDependency */,
+			);
+			name = "licon-healthTests";
+			productName = "licon-healthTests";
+			productReference = DAC260EB20A4760F00E4045F /* licon-healthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAC260F520A4760F00E4045F /* licon-healthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC2610520A4760F00E4045F /* Build configuration list for PBXNativeTarget "licon-healthUITests" */;
+			buildPhases = (
+				DAC260F220A4760F00E4045F /* Sources */,
+				DAC260F320A4760F00E4045F /* Frameworks */,
+				DAC260F420A4760F00E4045F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC260F820A4760F00E4045F /* PBXTargetDependency */,
+			);
+			name = "licon-healthUITests";
+			productName = "licon-healthUITests";
+			productReference = DAC260F620A4760F00E4045F /* licon-healthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC260CF20A4760F00E4045F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = skyward;
+				TargetAttributes = {
+					DAC260D620A4760F00E4045F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DAC260EA20A4760F00E4045F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAC260D620A4760F00E4045F;
+					};
+					DAC260F520A4760F00E4045F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAC260D620A4760F00E4045F;
+					};
+				};
+			};
+			buildConfigurationList = DAC260D220A4760F00E4045F /* Build configuration list for PBXProject "licon-health" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC260CE20A4760F00E4045F;
+			productRefGroup = DAC260D820A4760F00E4045F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC260D620A4760F00E4045F /* licon-health */,
+				DAC260EA20A4760F00E4045F /* licon-healthTests */,
+				DAC260F520A4760F00E4045F /* licon-healthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC260D520A4760F00E4045F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC260E520A4760F00E4045F /* LaunchScreen.storyboard in Resources */,
+				DAC260E220A4760F00E4045F /* Assets.xcassets in Resources */,
+				DAC260E020A4760F00E4045F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC260E920A4760F00E4045F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC260F420A4760F00E4045F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC260D320A4760F00E4045F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC260DD20A4760F00E4045F /* ViewController.swift in Sources */,
+				DAC260DB20A4760F00E4045F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC260E720A4760F00E4045F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC260F020A4760F00E4045F /* licon_healthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC260F220A4760F00E4045F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC260FB20A4760F00E4045F /* licon_healthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC260ED20A4760F00E4045F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC260D620A4760F00E4045F /* licon-health */;
+			targetProxy = DAC260EC20A4760F00E4045F /* PBXContainerItemProxy */;
+		};
+		DAC260F820A4760F00E4045F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC260D620A4760F00E4045F /* licon-health */;
+			targetProxy = DAC260F720A4760F00E4045F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC260DE20A4760F00E4045F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC260DF20A4760F00E4045F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC260E320A4760F00E4045F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC260E420A4760F00E4045F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC260FD20A4760F00E4045F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAC260FE20A4760F00E4045F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC2610020A4760F00E4045F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "licon-health/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "licon.licon-health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC2610120A4760F00E4045F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "licon-health/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "licon.licon-health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAC2610320A4760F00E4045F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "licon-healthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "licon.licon-healthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/licon-health.app/licon-health";
+			};
+			name = Debug;
+		};
+		DAC2610420A4760F00E4045F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "licon-healthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "licon.licon-healthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/licon-health.app/licon-health";
+			};
+			name = Release;
+		};
+		DAC2610620A4760F00E4045F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "licon-healthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "licon.licon-healthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "licon-health";
+			};
+			name = Debug;
+		};
+		DAC2610720A4760F00E4045F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "licon-healthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "licon.licon-healthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "licon-health";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC260D220A4760F00E4045F /* Build configuration list for PBXProject "licon-health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC260FD20A4760F00E4045F /* Debug */,
+				DAC260FE20A4760F00E4045F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC260FF20A4760F00E4045F /* Build configuration list for PBXNativeTarget "licon-health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC2610020A4760F00E4045F /* Debug */,
+				DAC2610120A4760F00E4045F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC2610220A4760F00E4045F /* Build configuration list for PBXNativeTarget "licon-healthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC2610320A4760F00E4045F /* Debug */,
+				DAC2610420A4760F00E4045F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC2610520A4760F00E4045F /* Build configuration list for PBXNativeTarget "licon-healthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC2610620A4760F00E4045F /* Debug */,
+				DAC2610720A4760F00E4045F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC260CF20A4760F00E4045F /* Project object */;
+}
