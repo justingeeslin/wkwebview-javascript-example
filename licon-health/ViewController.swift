@@ -4,7 +4,7 @@
 //
 //  Created by skyward on 5/10/18.
 //  Copyright © 2018 skyward. All rights reserved.
-//  Inspired by https://www.hackingwithswift.com/read/32/3/how-to-use-sfsafariviewcontroller-to-browse-a-web-page
+//  Inspired by https://www.hackingwithswift.com/read/4/2/creating-a-simple-browser-with-wkwebview
 
 import UIKit
 import WebKit
